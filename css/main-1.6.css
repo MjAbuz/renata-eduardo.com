@@ -854,7 +854,6 @@ a.email {
 }
 
 .thumb {
-
     height: 80px;
     width: 80px;
     background-color: black;
@@ -871,3 +870,7 @@ a.email {
     border-radius: 2px;
 }
 
+.thumb.responsive {
+    width: 100%;
+    height: auto;
+}
